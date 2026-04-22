@@ -1,7 +1,8 @@
 # 📊 COVID-19 Data Analysis using Pandas & Matplotlib
 
 ## 📌 Overview
-This project performs exploratory data analysis (EDA) on COVID-19 dataset using Pandas.
+
+This project contains a small dataset of Covid 19 and it performs exploratory data analysis (EDA) using Pandas.
 
 The goal is to extract meaningful insights such as:
 - Regions with highest/lowest deaths
@@ -22,4 +23,12 @@ The goal is to extract meaningful insights such as:
   ```python
   data.loc[:, 'State'] = data['State'].fillna('Unknown')
 
-  ## 📊 Key Analysis Performed
+## Key Insights
+
+Italy and Spain recorded the highest deaths during the observed period
+Some regions show very low minimum deaths, indicating early-stage outbreak data
+
+## ⭐ If you find this useful
+Feel free to ⭐ the repository or fork it!
+
+---
